@@ -1,7 +1,7 @@
 require 'rails/generators'
 require 'rails/generators/migration'
 
-class FinalBoardingCall < Rails::Generators::Base
+class FinalboardingcallGenerator < Rails::Generators::Base
 
   include Rails::Generators::Migration
 

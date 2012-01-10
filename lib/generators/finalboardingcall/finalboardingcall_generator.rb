@@ -1,8 +1,8 @@
 require 'rails/generators'
 require 'rails/generators/migration'
 
-class TeamPageGenerator < Rails::Generators::Base
-	
+class FinalBoardingCall < Rails::Generators::Base
+
   include Rails::Generators::Migration
 
   def self.source_root
@@ -18,6 +18,6 @@ class TeamPageGenerator < Rails::Generators::Base
   end
 
   def create_migration_file
-    migration_template 'migration.rb', 'db/migrate/create_team_members_table.rb'
+    migration_template 'migration.rb', 'db/migrate/create_finalboardingcall_table.rb'
   end
 end

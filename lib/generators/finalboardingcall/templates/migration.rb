@@ -1,4 +1,4 @@
-class CreateFinalBoardingCall < ActiveRecord::Migration
+class CreateFinalboardingcalls < ActiveRecord::Migration
   def change
     create_table :finalboardingcalls do |t|
       t.string :old_url

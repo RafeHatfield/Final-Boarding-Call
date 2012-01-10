@@ -8,6 +8,10 @@ Implementation
 
 MyApplication::Application.config.middleware.insert_before(Rack::Lock, Rack::FinalBoardingCall)
 
+rails generate finalboardingcall
+
+rake db:migrate
+
 ### Version 0.0.1
 
 * This version is not yet working as described, it does basic capturing of every request and returns a simple string.

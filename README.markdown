@@ -12,7 +12,7 @@ rails generate finalboardingcall
 
 rake db:migrate
 
-### Version 0.0.1
+### Version 0.0.2
 
 * This version is not yet working as described, it does basic capturing of every request and returns a simple string for testing porpoises.  It hasn't been released to rubygems.
 
